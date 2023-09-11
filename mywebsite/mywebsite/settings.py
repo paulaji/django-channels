@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'chat',
 ]
 
+ASGI_APPLICATION = 'mywebsite.asgi.application'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
