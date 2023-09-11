@@ -1,0 +1,5 @@
+django-admin startproject mywebsite // start a django project
+cd mywebsite // cd into the project we just created
+python manage.py startapp chat // create an application inside our project 
+
+pip install channels // to install channels for asgi 
